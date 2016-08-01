@@ -60,7 +60,7 @@ The template contains the following types of **basic documents**:
 - **Document**, for more complex and structured stuff like books.
 - **Keynotes**, for slides.
 
-Each kind of document consists of two main files: a markdown (`.md`) file and a stylesheet (`.css`) file. If you are writing a book, for example, you will be using `document.md` and `document.css` as a starting point:
+Each kind of document consists of two main files: a **markdown** (`.md`) file and a **stylesheet** (`.css`) file. If you are writing a book, for example, you will be using `document.md` and `document.css` as a starting point:
 
 - `document.md` will be used to write all the contents of your book.
 - `document.css` can be used to customize the default CSS style by overriding some rules.
@@ -72,3 +72,5 @@ make
 ~~~
 
 The output will be placed inside `html`, `odt` and `pdf` directories.
+
+You don't have to obey the default filenames. For example, you can rename `document.md` to `mybook.md` and use the utility script `generate-makefile.sh` to automatically update the `Makefile`. In that case, you will have to name the stylesheet `mybook.css`, just like the Markdown file. That's the only restriction.
