@@ -39,6 +39,15 @@ sudo apt-get install fonts-font-awesome
 fc-list | grep awesome
 ~~~
 
+Additionaly, to support admonition icons in HTML output format, you will need to place the following files inside `css/web/font-awesome/fonts/`:
+
+- FontAwesome.otf
+- fontawesome-webfont.eot
+- fontawesome-webfont.svg
+- fontawesome-webfont.ttf
+- fontawesome-webfont.woff
+- fontawesome-webfont.woff2
+
 Optionally, you can install an easy to use Markdown editor like [ReText](https://github.com/retext-project/retext), from Ubuntu repositories:
 
 ~~~
