@@ -21,7 +21,10 @@ Template to compose books, slides and articles in Markdown and export them to PD
 Install some Python utilities along with some libraries and other stuff:
 
 ~~~
-sudo apt-get install python-dev python-pip python-lxml libcairo2 libpango1.0-0 libgdk-pixbuf2.0-0 libffi-dev shared-mime-info libxslt-dev make
+sudo apt-get install python-dev python-pip python-lxml
+sudo apt-get install libcairo2 libpango1.0-0 libgdk-pixbuf2.0-0 libffi-dev libxslt-dev
+sudo apt-get install shared-mime-info
+sudo apt-get install make
 ~~~
 
 Use `pip` to install Python packages:
