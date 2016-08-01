@@ -1,0 +1,27 @@
+@import '../common/admonition.css';
+
+
+/* Admonitions */
+div.admonition p {
+	font-family: 'Ubuntu Light',sans-serif;
+}
+
+
+/* Front Page */
+div.frontpage, div.portada {
+	font-family: 'Georgia',serif !important;
+	font-size: 24pt;
+	margin: 2cm 2cm;
+	padding: 4em 1em;
+	page-break-after: always;
+}
+
+div.frontpage p.admonition-title, div.portada p.admonition-title {
+	font-family: 'Ubuntu',sans-serif !important;
+	font-size: 36pt;
+	font-weight: bold;
+}
+
+div.frontpage p, div.portada p {
+	/*font-family: 'Georgia',serif !important;*/
+}

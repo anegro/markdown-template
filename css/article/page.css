@@ -1,0 +1,30 @@
+@page {
+	margin-top: 2cm;
+	margin-bottom: 2cm;
+	margin-left: 2cm;
+	margin-right: 2cm;
+
+	@top-left {
+		content: "Tema";
+		font: 10pt 'Ubuntu Condensed';
+		width: 17cm;
+		vertical-align: bottom;
+		border-bottom: 0.5pt solid;
+		margin-bottom: 0.7cm;
+	}
+
+	@top-right {
+		content: "Autor";
+		font: 10pt 'Ubuntu Condensed';
+		width: 17cm;
+		vertical-align: bottom;
+		margin-bottom: 0.7cm;
+	}
+
+	@bottom-center {
+		font-size: 80%;
+		/*content: "Página " counter(page) " de " counter(pages);*/
+		content: counter(page);
+	}
+}
+

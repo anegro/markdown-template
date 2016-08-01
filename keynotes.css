@@ -1,0 +1,23 @@
+@import 'css/keynotes/print.css';
+
+@page {
+	@left-top {
+		content: "Etiqueta";
+	}
+
+	@top-left {
+		content: none;
+	}
+	@top-right {
+		content: "Título";
+	}
+
+	@bottom-left {
+		content: "Autor";
+	}	
+	@bottom-right {
+		/*content: "Página " counter(page) " de " counter(pages);*/
+		content: counter(page);
+	}
+}
+

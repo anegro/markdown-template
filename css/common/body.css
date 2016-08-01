@@ -1,0 +1,40 @@
+html, body {
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+hr {
+	border: 0.5px solid gray;
+}
+
+/* Arreglo para las listas */
+p, ol, ul {
+	line-height: 1.5 !important;
+}
+
+/* Arreglo para las notas al pie de página */
+div.footnote li p {
+	display: inline;
+}
+
+div.footnote ol li:before {
+	content: counter(item) ". ";
+}
+
+/* Formato de las citas */
+blockquote {
+	margin: 1ex 4ex;
+	padding-left: 2ex;
+	/*background-color: #f9f9f9;*/
+	border: 1px solid #d0d0d0;
+	border-width: 0px 0px 0px 3px;
+	/*border-radius: 5px;*/
+}
+
+blockquote p {
+	font-family: sans-serif;
+	font-size: 100%;
+	color: #333;
+	margin: 0;
+}

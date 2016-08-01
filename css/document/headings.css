@@ -1,0 +1,29 @@
+@import '../common/headings.css';
+
+/* Table of contents heading style */
+p.toc {
+	font-family: 'Ubuntu Light', sans-serif !important;
+	border-bottom: 1px solid navy;
+}
+
+/* Headings */
+h1 {
+	page-break-before: always !important;
+	margin-top: 0 !important;
+	/*font-size: 20pt;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Ubuntu', sans-serif !important;
+}
+
+h3, h4, h5, h6 {
+	-weasy-bookmark-level: none;
+}
+
+/* Encabezados sin numerar */
+/*
+h1, h2 { padding-left: 0; text-indent: 0 }
+h1:before, h2:before { content: none }
+*/
+

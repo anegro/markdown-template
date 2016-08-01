@@ -1,0 +1,19 @@
+@import '../common/codeblocks.css';
+
+code {
+	font-size: 75% !important;
+}
+
+pre, div.codehilite {
+	font-size: 14pt !important;
+	overflow: hidden !important;
+	/*page-break-inside: avoid !important;*/
+}
+
+td.code {
+	width: 16cm;
+}
+
+td.linenos {
+	width: 0.5cm;
+}

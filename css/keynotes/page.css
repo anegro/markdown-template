@@ -1,0 +1,78 @@
+@page {
+	/*size: 210mm 148mm;*/
+	size: 28cm 21cm;
+
+	margin-top: 1cm;
+	margin-bottom: 1cm;
+	margin-left: 1cm;
+	margin-right: 1cm;
+
+	@left-top {
+		content: "Etiqueta";
+		font: .5cm 'Ubuntu Light';
+		/*background: #005a9c;*/
+		/*background: #67A;*/
+		background: #ABC;
+		color: #fff;
+		text-align: center;
+		margin-right: 1cm;
+		margin-top: -1cm;
+		height: 0.6cm;
+		width: 23cm;
+		transform-origin: 100% 0;
+		transform: rotate(-90deg);
+	}
+
+	@top-left {
+		content: "Título";
+		font: 12pt 'Ubuntu Condensed';
+		color: gray;
+		width: 26cm;
+		vertical-align: bottom;
+		margin-top: 0.7cm;
+		line-height: 1 !important;
+	}
+
+	@top-right {
+		content: "Sección";
+		font: 12pt 'Ubuntu Condensed';
+		color: gray;
+		width: 26cm;
+		vertical-align: bottom;
+		margin-top: 0.7cm;
+		line-height: 1 !important;
+	}
+
+	@bottom-left {
+		content: "Autor";
+		font: 12pt 'Ubuntu Condensed';
+		color: gray;
+		width: 26cm;
+		vertical-align: bottom;
+		margin-bottom: 0.7cm;
+		line-height: 1 !important;
+	}
+
+	@bottom-right {
+		font-size: 12pt;
+		color: gray;
+		/*content: "Página " counter(page) " de " counter(pages);*/
+		content: counter(page);
+		margin-bottom: 0.7cm;
+		line-height: 1 !important;
+	}
+}
+
+@page :first {
+	@top-left { content: none; }
+	@top-right { content: none; }
+
+	@bottom-left { content: none; }
+	@bottom-center { content: none; }
+	@bottom-right { content: none; }
+
+	@left-top { content: none; }
+
+	@right-top { content: none; }
+}
+

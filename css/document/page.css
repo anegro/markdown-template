@@ -1,0 +1,114 @@
+@page {
+	margin-top: 2cm;
+	margin-bottom: 2cm;
+	margin-left: 2cm;
+	margin-right: 2cm;
+
+	@top-left {
+		content: "Título";
+		font: 10pt 'Ubuntu Condensed';
+		width: 17cm;
+		vertical-align: bottom;
+		border-bottom: 0.5pt solid;
+		margin-bottom: 0.7cm;
+	}
+
+	@top-right {
+		content: "Sección";
+		font: 10pt 'Ubuntu Condensed';
+		width: 17cm;
+		vertical-align: bottom;
+		margin-bottom: 0.7cm;
+	}
+
+	@bottom-left {
+		content: "Libro";
+		font: 10pt 'Ubuntu Condensed';
+		width: 17cm;
+		vertical-align: bottom;
+		margin-bottom: 0.7cm;
+		color: gray;
+	}
+	@bottom-center {
+		font-size: 80%;
+		/*content: "Página " counter(page) " de " counter(pages);*/
+		content: counter(page);
+	}
+	@bottom-right {
+		content: "Autor";
+		font: 10pt 'Ubuntu Condensed';
+		width: 17cm;
+		vertical-align: bottom;
+		margin-bottom: 0.7cm;
+		color: gray;
+	}
+}
+
+
+@page :first {
+	@top-left {
+		content: none;
+	}
+
+	@top-right {
+		content: none;
+	}
+
+	@bottom-left {
+		content: none;
+	}
+
+	@bottom-center {
+		content: none;
+	}
+
+	@bottom-right {
+		content: none;
+	}
+
+	@right-top {
+		content: none;
+	}
+}
+
+
+@page /*:right*/ {
+	margin-right: 0.5cm;
+	padding-right: 1.5cm;
+
+	@top-left {
+		margin-right: 1.5cm;
+	}
+
+	@top-right {
+		margin-right: 1.5cm;
+	}
+
+	@bottom-left {
+		margin-right: 1.5cm;
+	}
+
+	@bottom-center {
+		margin-right: 1.5cm;
+	}
+
+	@bottom-right {
+		margin-right: 1.5cm;
+	}
+
+	@right-top {
+		content: "Título";
+		font: .5cm/1.5 'Ubuntu Light';
+		/*background: #005a9c;*/
+		/*background: #67A;*/
+		background: #ABC;
+		color: #fff;
+		text-align: right;
+		padding-right: 2em;
+		height: 1.5em;
+		width: 10cm;
+		transform-origin: 0 0;
+		transform: rotate(90deg);
+	}
+}
+

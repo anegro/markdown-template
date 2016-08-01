@@ -1,0 +1,16 @@
+@import 'css/article/print.css';
+
+@page {
+    @top-left {
+        content: "Artículo";
+	}
+    @top-right {
+        content: "Autor";
+	}
+
+    @bottom-center {
+        /*content: "Página " counter(page) " de " counter(pages);*/
+        content: counter(page);
+    }
+}
+

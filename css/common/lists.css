@@ -1,0 +1,79 @@
+/* Any list item */
+li {
+	margin-top: 4pt;
+}
+
+
+/* Unordered lists */
+ul {
+	list-style-position: inside;
+	/*border: solid 1px blue;*/
+}
+
+ul {
+	padding-left: 2em;
+	text-indent: -1em;
+}
+
+ul { list-style-type: square; }
+ul ul { list-style-type: disc; }
+ul ul ul { list-style-type: circle; }
+
+
+/* Ordered lists */
+
+/* Método 1
+ol ol { list-style-type: lower-alpha; }
+ol ol ol { list-style-type: lower-roman; }
+/**/
+
+/* Método 2
+ol {
+	list-style-position: inside;
+	padding-left: 3em;
+}
+ol ol { padding-left: 3.5em; }
+ol ol ol { padding-left: 4.5em; }
+ol ol ol ol { padding-left: 5.5em; }
+
+ol { counter-reset: item }
+ol li {
+	display: block;
+	counter-increment: item;
+	margin-left: 0;
+	position: relative;
+}
+ol li:before {
+	content: counters(item, ".") ". ";
+	position: absolute;
+	top: 0;
+	left: -3ex;
+}
+ol ol li:before{ left: -4.5ex; }
+ol ol ol li:before{ left: -6.5ex; }
+ol ol ol ol li:before{ left: -8.5ex; }
+/**/
+
+/* Método 3 */
+ol {
+	list-style-type: none;
+	counter-reset: item;
+	margin: 0 0 0 1em;
+	padding: 0;
+}
+
+ol > li {
+	display: table;
+	counter-increment: item;
+}
+
+ol > li:before {
+	content: counters(item, ".") ". ";
+	display: table-cell;
+	padding-right: 6pt;
+}
+
+li ol > li:before {
+	content: counters(item, ".") ". ";
+}
+/**/

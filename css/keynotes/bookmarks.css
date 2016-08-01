@@ -1,0 +1,22 @@
+@import '../common/bookmarks.css';
+
+h1 {
+	-weasy-bookmark-level: 1 !important;
+	-weasy-bookmark-label: content();
+	-weasy-string-set: section content();
+}
+
+h2 {
+	-weasy-bookmark-level: none !important;
+	-weasy-bookmark-label: content();
+}
+
+div.toc { font-size: 16pt }
+div.toc ul { list-style-type: square; padding-left: 1em; text-indent: 0 }
+div.toc li { display: list-item; margin: 0 !important; }
+div.toc li:before { content: none }
+div.toc ul ul { display: none }
+
+div.toc {
+	font-family: 'Ubuntu Light', sans-serif !important;
+}

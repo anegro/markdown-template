@@ -1,0 +1,13 @@
+@import '../common/bookmarks.css';
+
+/* Añadir tercer nivel al índice */
+/*
+div.toc ul ul ul { display: block }
+div.toc ul ul ul ul { display: none }
+div.toc ul ul ul li { display: list-item; list-style-type: square }
+div.toc ul ul ul li:before { content: none }
+*/
+
+div.toc {
+	font-family: 'Ubuntu Light', sans-serif !important;
+}

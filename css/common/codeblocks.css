@@ -1,0 +1,66 @@
+/* Bloques de código delimitados */
+pre {
+	font-size: 9pt;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+/* Código en línea */
+code {
+/*	font-size: 9pt;*/
+	padding: 1pt 3pt;
+}
+
+div.codehilite, code {
+/*	color: #116;*/
+	background-color: #F7F7F7;
+	font-family: monospace;
+	border: 1px solid #D7D7D7;
+	border-radius: 3px;
+	margin-top: 1ex;
+}
+
+div.codehilite {
+	overflow: auto;
+}
+
+table.codehilitetable {
+	padding: 0 0;
+	background-color: transparent;
+	border-spacing: 0px;
+	width: 100%;
+	page-break-inside: auto;
+	display: table;
+}
+
+table.codehilitetable tr {
+	page-break-inside: inherit;
+	display: table-row;
+}
+
+table.codehilitetable td {
+	page-break-inside: inherit;
+	display: table-cell;
+}
+
+td.code {
+	width: 100%;
+	padding: 0 0;
+}
+
+td.linenos {
+	padding: 0 0;
+	padding-right: 0.5em;
+	text-align: right;
+}
+
+div.linenodiv {
+	padding: 0 0;
+	color: #555;
+	font-family: monospace;
+	border: 1px solid transparent;
+}
+
+td.linenos pre {
+	padding: 0 0;
+}

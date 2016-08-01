@@ -1,0 +1,8 @@
+div.block {
+	page-break-inside: avoid !important;
+}
+
+div.newpage {
+	page-break-after: always !important;
+}
+

@@ -1,0 +1,19 @@
+h1 {
+	-weasy-bookmark-level: 1 !important;
+	-weasy-bookmark-label: counter(counter1) " " content();
+	-weasy-string-set: section content();
+}
+
+h2 {
+	-weasy-bookmark-level: 2 !important;
+	-weasy-bookmark-label: counter(counter1) "." counter(counter2) " " content();
+}
+
+div.toc ul { counter-reset: item; padding-left: 1em; text-indent: -1em; }
+div.toc ul > li { margin: 1ex 0 0 0; }
+div.toc li { display: block; counter-increment: item; text-align: left;}
+div.toc li:before { content: counters(item, ".") " " }
+div.toc ul ul { padding-left: 2em; text-indent: -2em; }
+div.toc ul ul > li { margin: 0; }
+div.toc ul ul ul { display: none }
+

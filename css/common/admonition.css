@@ -1,0 +1,160 @@
+/* -- Admonitions ----------------------------------------------------------- */
+/*
+<div class="admonition type">
+	<p class="admonition-title">Título</p>
+	<p>Subtítulo</p>
+</div>
+*/
+
+div.admonition {
+	/*margin: 2ex 4ex;*/
+	margin: 2ex 0ex;
+	padding: 1ex;
+	padding: 1ex 1ex 1ex 4ex;
+	background-color: #f7f7f7;
+	color: #555;
+	border: 1px solid #555;
+	/*border-width: 0.5px 0.5px 0.5px 5px;*/
+	border-width: 0px 0px 0px 4px;
+	border-radius: 5px;
+	page-break-inside: avoid;
+	position: relative;
+}
+
+div.admonition p {
+	margin: 0 0;
+	margin-top: 2ex;
+	font-family: sans-serif;
+		/*border: 1px solid green;*/
+}
+
+div.admonition p.admonition-title {
+	margin: 0ex 0ex;
+	display: block;
+	font-weight: bold;
+	font-family: sans-serif;
+		/*border: 1px solid blue;*/
+}
+
+div.admonition p.admonition-title:after {
+    /*content: ":";*/
+}
+
+
+/* note, tip, hint, attention, important, caution, warning, danger, error */
+div.note, div.tip, div.hint, div.attention, div.important, div.caution, div.warning, div.danger, div.error { }
+
+/* nota, consejo, sugerencia, atencion, importante, precaucion, advertencia, peligro, error */
+div.nota, div.consejo, div.sugerencia, div.atencion, div.importante, div.precaucion, div.advertencia, div.peligro, div.error { }
+
+/* blue */
+div.note, div.nota {
+    background-color: #eef;
+    border-color: #005;
+  	 color: #005;
+}
+
+/* green */
+div.hint, div.tip, div.sugerencia, div.consejo {
+    background-color: #dff;
+    border-color: #066;
+  	 color: #066;
+}
+
+/* yellow */
+div.attention, div.important, div.atencion, div.importante {
+    background-color: #ffffd0;
+    border-color: #770;
+  	 color: #770;
+}
+
+/* orange */
+div.caution, div.warning, div.precaucion, div.advertencia {
+    background-color: #fec;
+    border-color: #950;
+  	 color: #950;
+}
+
+/* red */
+div.danger, div.error, div.peligro {
+    background-color: #fdd;
+    border-color: #900;
+  	 color: #900;
+}
+
+
+
+/* Iconos */
+div.admonition:before {
+	font-family: 'FontAwesome';
+	content: "\f0c6";  /* fa-paperclip */
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding-top: 1.4ex;
+	padding-left: 1ex;
+}
+
+
+div.note:before, div.nota:before {
+    content: "\f05a";  /* fa-info-circle */
+}
+
+div.hint:before, div.tip:before, div.sugerencia:before, div.consejo:before {
+    content: "\f0eb";  /* fa-lightbulb-o */
+}
+
+div.attention:before, div.important:before, div.atencion:before, div.importante:before {
+    content: "\f06a";  /* fa-exclamation-circle */
+    /*content: "\f069";  /* fa-asterisk */
+}
+
+div.caution:before, div.warning:before, div.precaucion:before, div.advertencia:before {
+    content: "\f071";  /* fa-exclamation-triangle */
+}
+
+div.danger:before, div.peligro:before { 
+	content: "\f0e7";  /* fa-bolt */
+}
+
+div.error:before {
+	content: "\f057";  /* fa-times-circle */
+}
+
+
+/* -- Front Page ------------------------------------------------------------ */
+/*
+<div class="admonition frontpage">
+	<p class="admonition-title">Título</p>
+	<p>Subtítulo</p>
+</div>
+*/
+
+div.frontpage, div.portada {
+	margin: 1em 1em;
+	padding: 1em 1em;
+	color: navy;
+	/*background-color: #CCF;*/
+	background-color: #EEF;
+	font-family: serif;
+	font-weight: normal;
+	font-size: 20pt;
+	text-align: center;
+	line-height: 1.5 !important;
+	border: 1px solid #BBC;
+	border-radius: 6px;
+}
+
+div.frontpage p.admonition-title, div.portada p.admonition-title {
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: sans-serif;
+		/*border: 1px solid blue;*/
+}
+
+div.frontpage p, div.portada p {
+}
+
+div.frontpage:before, div.portada:before { 
+	content: "";
+}

@@ -1,0 +1,28 @@
+@import '../common/body.css';
+
+html, body {
+	font-size: 18pt;
+	/*font-family: 'Georgia',serif !important;*/
+	/*font-family: 'FreeSans',sans-serif !important;*/
+	font-family: 'Liberation Sans',sans-serif !important;
+	-weasy-hyphens: none;
+	text-align: justify;
+	padding: 0 !important;
+	background: none !important;
+}
+
+
+p, ol, ul {
+	line-height: 1.5 !important;
+}
+
+/* Formato de las citas */
+blockquote {
+}
+
+blockquote p {
+	/*font-family: 'Liberation Sans Narrow',sans-serif;*/
+	/*font-family: 'Ubuntu Condensed',sans-serif;*/
+	/*font-family: 'Lato Light',sans-serif;*/
+	font-family: 'Ubuntu Light',sans-serif;
+}

@@ -1,0 +1,25 @@
+@import 'css/document/print.css';
+
+@page {
+	@top-left {
+        content: "Título";
+	}
+	@top-right {
+		/*content: "Sección";*/
+		content: string(section);
+	}
+    @right-top {
+        content: "Etiqueta";
+	}
+
+	@bottom-left {
+		content: "Libro";
+	}
+    @bottom-center {
+        /*content: "Página " counter(page) " de " counter(pages);*/
+        content: counter(page);
+    }
+	@bottom-right {
+		content: "Autor";
+	}
+}

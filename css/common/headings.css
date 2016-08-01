@@ -1,0 +1,71 @@
+p.toc {
+	color: navy;
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 24pt;
+}
+
+div.toc {
+	font-family: sans-serif;
+	/*float: right;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: navy;
+	font-family: sans-serif;
+}
+
+/* Numeración de encabezados */
+/* Método 1
+h1:before {
+	content: counter(counter1) " ";
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+h1 {
+	counter-increment: counter1;
+	counter-reset: counter2;
+	padding-left: 1.8em;
+	text-align: left;
+	position: relative;
+ }
+
+h2:before {
+	content: counter(counter1) "." counter(counter2) " ";
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+h2 {
+	counter-increment: counter2;
+	padding-left: 2.6em;
+	text-align: left;
+	position: relative;
+}
+/**/
+
+/* Método 2 */
+h1 {
+	display: table;
+	counter-increment: counter1;
+	counter-reset: counter2;
+}
+
+h1:before {
+	content: counter(counter1) " ";
+	display: table-cell;
+	padding-right: 12pt;
+}
+
+h2 {
+	display: table;
+	counter-increment: counter2;
+}
+
+h2:before {
+	content: counter(counter1) "." counter(counter2) " ";
+	display: table-cell;
+	padding-right: 12pt;
+}
+/**/
