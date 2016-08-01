@@ -2,21 +2,21 @@
 
 @page {
 	@left-top {
-		content: "Etiqueta";
+		content: "Tag";
 	}
 
 	@top-left {
 		content: none;
 	}
 	@top-right {
-		content: "Título";
+		content: "Title";
 	}
 
 	@bottom-left {
-		content: "Autor";
+		content: "Author";
 	}	
 	@bottom-right {
-		/*content: "Página " counter(page) " de " counter(pages);*/
+        /*content: "Page " counter(page) " of " counter(pages);*/
 		content: counter(page);
 	}
 }

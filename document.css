@@ -2,24 +2,24 @@
 
 @page {
 	@top-left {
-        content: "Título";
+        content: "Title";
 	}
 	@top-right {
-		/*content: "Sección";*/
+		/*content: "Section";*/
 		content: string(section);
 	}
     @right-top {
-        content: "Etiqueta";
+        content: "Tag";
 	}
 
 	@bottom-left {
-		content: "Libro";
+		content: "Book";
 	}
     @bottom-center {
-        /*content: "Página " counter(page) " de " counter(pages);*/
+        /*content: "Page " counter(page) " of " counter(pages);*/
         content: counter(page);
     }
 	@bottom-right {
-		content: "Autor";
+		content: "Author";
 	}
 }

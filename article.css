@@ -2,14 +2,14 @@
 
 @page {
     @top-left {
-        content: "Artículo";
+        content: "Article";
 	}
     @top-right {
-        content: "Autor";
+        content: "Author";
 	}
 
     @bottom-center {
-        /*content: "Página " counter(page) " de " counter(pages);*/
+        /*content: "Page " counter(page) " of " counter(pages);*/
         content: counter(page);
     }
 }
