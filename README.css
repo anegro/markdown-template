@@ -1,0 +1,16 @@
+@import 'css/article/print.css';
+
+@page {
+    @top-left {
+        content: "README";
+	}
+    @top-right {
+        content: "Antonio Negro";
+	}
+
+    @bottom-center {
+        /*content: "Page " counter(page) " of " counter(pages);*/
+        content: counter(page);
+    }
+}
+
