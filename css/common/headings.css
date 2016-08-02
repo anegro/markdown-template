@@ -50,22 +50,30 @@ h1 {
 	display: table;
 	counter-increment: counter1;
 	counter-reset: counter2;
+		/* Weasyprint Fix */
+		width: 100%;
 }
 
 h1:before {
 	content: counter(counter1) " ";
 	display: table-cell;
 	padding-right: 12pt;
+		/* Weasyprint Fix */
+		width: 15pt;
 }
 
 h2 {
 	display: table;
 	counter-increment: counter2;
+		/* Weasyprint Fix */
+		width: 100%;
 }
 
 h2:before {
 	content: counter(counter1) "." counter(counter2) " ";
 	display: table-cell;
 	padding-right: 12pt;
+		/* Weasyprint Fix */
+		width: 24pt;
 }
 /**/

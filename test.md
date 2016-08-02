@@ -37,14 +37,6 @@ Table of contents
 [link](http://example.com)
 
 
-### Images
-
-~~~
-![m'lady](http://i.imgur.com/v8IVDka.jpg)
-~~~
-
-![m'lady](http://i.imgur.com/v8IVDka.jpg)
-
 ### Lists
 
 ~~~
@@ -71,14 +63,15 @@ Ordered list:
 2. Prepare ingredients
 3. Cook delicious things
 
+&nbsp;
 
-### Quotes
+### Images
 
 ~~~
-> To be or not to be, that is the question.
+![Emborio - Emporio - Santorini - Greece](img/santorini.jpg)
 ~~~
 
-> To be or not to be, that is the question.
+![Emborio - Emporio - Santorini - Greece](img/santorini.jpg)
 
 
 ### Horizontal Rules
@@ -88,6 +81,16 @@ Ordered list:
 ~~~
 
 ---
+
+
+### Quotes
+
+~~~
+> To be or not to be, that is the question.
+~~~
+
+> To be or not to be, that is the question.
+
 
 ### Code Snippets
 

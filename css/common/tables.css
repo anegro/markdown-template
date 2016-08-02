@@ -2,6 +2,9 @@ table {
 	background: black;
 	border-spacing: 1px;
 	margin-top: 1ex;
+		margin-top: 1ex;
+		margin-left: 2em;
+		width: auto; 
 }
 
 th, td {
