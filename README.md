@@ -94,17 +94,11 @@ You don't have to obey the default filenames. For example, you can rename `docum
 
 ![Article](img/article.pdf.png)
 
-[Article](img/article.pdf.png)
-
 ### Document style
 
 ![Document](img/document.pdf.png)
 
-[Document](img/document.pdf.png)
-
 ### Keynotes style
 
 ![Keynotes](img/keynotes.pdf.png)
-
-[Keynotes](img/keynotes.pdf.png)
 
