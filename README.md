@@ -88,7 +88,7 @@ The output will be placed inside `html`, `odt` and `pdf` directories.
 You don't have to obey the default filenames. For example, you can rename `document.md` to `mybook.md` and use the utility script `generate-makefile.sh` to automatically update the `Makefile`. In that case, you will have to name the stylesheet `mybook.css`, just like the Markdown file. That's the only restriction.
 
 
-## Output Samples
+## Output Samples in PDF format
 
 ### Article style
 
