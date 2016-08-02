@@ -65,20 +65,19 @@ ol {
 ol > li {
 	display: table;
 	counter-increment: item;
-	width: 100%;
+		/* Weasyprint Fix */
+		width: 100%;
 }
 
 ol > li:before {
 	content: counters(item, ".") ". ";
 	display: table-cell;
 	padding-right: 6pt;
-		width: 9pt;
+		/* Weasyprint Fix */
+		width: 15pt;
 		text-align: right;
 }
-
-li ol > li:before {
-	content: counters(item, ".") ". ";
-		width: 9pt;
-		text-align: right;
-}
+	/* Weasyprint Fix */
+	ol ol > li { width: auto; }
+	ol ol > li:before { width: auto; }
 /**/
