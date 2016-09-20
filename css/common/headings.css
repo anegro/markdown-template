@@ -13,6 +13,7 @@ div.toc {
 h1, h2, h3, h4, h5, h6 {
 	color: navy;
 	font-family: sans-serif;
+	text-align: left;
 }
 
 /* Numeración de encabezados */
@@ -59,7 +60,7 @@ h1:before {
 	display: table-cell;
 	padding-right: 12pt;
 		/* Weasyprint Fix */
-		width: 15pt;
+		width: 21pt;
 }
 
 h2 {
