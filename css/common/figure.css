@@ -41,6 +41,7 @@ div img {
 }
 
 
+
 table.figure {
 	width: auto;
 	margin: 1em auto;
@@ -65,3 +66,31 @@ table.figure img {
 	padding: 0;
 }
 
+
+
+p.figure {
+	width: 75%;
+	float: none;
+	margin: 1em auto;
+
+	background-color: #EFE;
+	border: 1px solid #BCB;
+	text-align: center;
+	font-family: 'Ubuntu Condensed',sans-serif !important;
+	font-size: 10pt;
+	padding: 1em 1em;
+}
+
+p.right {
+	width: 40%;
+	float: right;
+	margin-left: 1em;
+	margin-top: 0;
+}
+
+p.left {
+	width: 40%;
+	float: left;
+	margin-right: 1em;
+	margin-top: 0;
+}
