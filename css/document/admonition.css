@@ -2,7 +2,7 @@
 
 
 /* Admonitions */
-div.admonition p {
+div.admonition p, div.admonition ul, div.admonition ol {
 	font-family: 'Ubuntu Light',sans-serif;
 }
 
