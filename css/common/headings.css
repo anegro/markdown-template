@@ -60,7 +60,7 @@ h1:before {
 	display: table-cell;
 	padding-right: 12pt;
 		/* Weasyprint Fix */
-		width: 21pt;
+		width: 30pt;
 }
 
 h2 {
@@ -75,6 +75,6 @@ h2:before {
 	display: table-cell;
 	padding-right: 12pt;
 		/* Weasyprint Fix */
-		width: 24pt;
+		width: 30pt;
 }
 /**/
