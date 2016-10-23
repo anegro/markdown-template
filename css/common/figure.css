@@ -95,6 +95,12 @@ p.left {
 	margin-top: 0;
 }
 
+p.center {
+	width: 75%;
+	float: none;
+	margin: 1em auto;
+}
+
 p img {
 	width: 98%;
 	float: none;
