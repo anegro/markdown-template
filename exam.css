@@ -1,0 +1,16 @@
+@import 'css/exam/print.css';
+
+@page {
+	@top-left {
+		content: "";
+		/*border-bottom: 0.5px solid black;/**/
+	}
+	@top-right {
+		content: "";
+	}
+
+	@bottom-center {
+		/*content: "Página " counter(page) " de " counter(pages);*/
+		content: counter(page) "/" counter(pages);
+	}
+}
