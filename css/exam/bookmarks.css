@@ -1,0 +1,31 @@
+@import '../common/bookmarks.css';
+
+/* Añadir tercer nivel al índice */
+/*
+div.toc ul ul ul { display: block }
+div.toc ul ul ul ul { display: none }
+div.toc ul ul ul li { display: list-item; list-style-type: square }
+div.toc ul ul ul li:before { content: none }
+*/
+
+h1 {
+	-weasy-bookmark-level: 1 !important;
+	-weasy-bookmark-label: content();
+	-weasy-string-set: section content();
+}
+
+h2 {
+	-weasy-bookmark-level: 2 !important;
+	-weasy-bookmark-label: content();
+}
+
+div.toc ul { list-style-type: square; padding-left: 1em; text-indent: -1em; }
+div.toc li { display: list-item; margin: 1ex 0 0 0 !important;}
+div.toc li:before { content: none }
+div.toc ul ul { display: block; list-style-type: disc; padding-left: 2em; text-indent: -2em; }
+div.toc ul ul > li { margin: 0; }
+div.toc ul ul ul { display: none }
+
+div.toc {
+	font-family: 'Ubuntu Light', sans-serif !important;
+}

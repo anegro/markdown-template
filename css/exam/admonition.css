@@ -1,0 +1,45 @@
+@import '../common/admonition.css';
+
+
+/* Admonitions */
+div.admonition p, div.admonition ul, div.admonition ol, div.admonition table {
+	font-family: 'Ubuntu Light',sans-serif;
+}
+
+
+/* -- Front Page ------------------------------------------------------------ */
+/*
+<div class="admonition frontpage">
+	<p class="admonition-title">Título</p>
+	<p>Subtítulo</p>
+</div>
+*/
+
+div.frontpage, div.portada {
+	margin: 0em 0em 1em 0em;
+	padding: 1ex 1ex;
+	color: navy;
+	/*background-color: #CCF;*/
+	background-color: #EEF;
+	font-family: serif;
+	font-weight: normal;
+	font-size: 12pt;
+	text-align: center;
+	line-height: 1.5 !important;
+	border: 1px solid #BBC;
+	border-radius: 6px;
+}
+
+div.frontpage p.admonition-title, div.portada p.admonition-title {
+	font-size: 14pt;
+	font-weight: bold;
+	font-family: sans-serif;
+		/*border: 1px solid blue;*/
+}
+
+div.frontpage p, div.portada p {
+}
+
+div.frontpage:before, div.portada:before { 
+	content: "";
+}
