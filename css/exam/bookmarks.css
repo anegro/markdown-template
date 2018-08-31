@@ -9,14 +9,14 @@ div.toc ul ul ul li:before { content: none }
 */
 
 h1 {
-	-weasy-bookmark-level: 1 !important;
-	-weasy-bookmark-label: content();
-	-weasy-string-set: section content();
+	bookmark-level: 1 !important;
+	bookmark-label: content();
+	string-set: section content();
 }
 
 h2 {
-	-weasy-bookmark-level: 2 !important;
-	-weasy-bookmark-label: content();
+	bookmark-level: 2 !important;
+	bookmark-label: content();
 }
 
 div.toc ul { list-style-type: square; padding-left: 1em; text-indent: -1em; }
@@ -27,5 +27,6 @@ div.toc ul ul > li { margin: 0; }
 div.toc ul ul ul { display: none }
 
 div.toc {
-	font-family: 'Ubuntu Light', sans-serif !important;
+	/*font-family: 'Ubuntu Light', sans-serif !important;*/
+	font-family: 'Open Sans Light', sans-serif !important;
 }

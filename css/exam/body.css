@@ -4,7 +4,7 @@ html, body {
 	font-size: 12pt;
 	/*font-family: 'Times New Roman', serif;*/
 	font-family: 'Georgia',serif !important;
-	-weasy-hyphens: none;
+	hyphens: none;
 	text-align: justify;
 	padding: 0 !important;
 	background: none !important;
@@ -23,5 +23,6 @@ blockquote p {
 	/*font-family: 'Liberation Sans Narrow',sans-serif;*/
 	/*font-family: 'Ubuntu Condensed',sans-serif;*/
 	/*font-family: 'Lato Light',sans-serif;*/
-	font-family: 'Ubuntu Light',sans-serif;
+	/*font-family: 'Ubuntu Light', sans-serif !important;*/
+	font-family: 'Open Sans Light', sans-serif !important;
 }

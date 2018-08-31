@@ -5,8 +5,8 @@ Template to compose books, slides and articles in Markdown and export them to PD
 
 ## Requirements
 
-- **Ubuntu** 14.04 or other compatible Linux distribution.
-- **Python** 2.7 or later.
+- **Ubuntu** 18.04 or other compatible Linux distribution.
+- **Python** 3 or later.
 - Several Python packages:
 	- **markdown**, to support markdown conversion to HTML.
 	- **pygments**, as syntax highlighter.
@@ -21,24 +21,25 @@ Template to compose books, slides and articles in Markdown and export them to PD
 Install some Python utilities along with some libraries and other stuff:
 
 ~~~
-sudo apt-get install python-dev python-pip python-lxml
-sudo apt-get install libcairo2 libpango1.0-0 libgdk-pixbuf2.0-0 libffi-dev libxslt-dev
-sudo apt-get install shared-mime-info
-sudo apt-get install make
+sudo apt install build-essential python3-dev python3-pip python3-cffi
+sudo apt install libcairo2 libpango-1.0-0 libpangocairo-1.0.0 libgdk-pixbuf2.0-0 libffi-dev
+sudo apt install shared-mime-info
+sudo apt install make
 ~~~
 
-Use `pip` to install Python packages:
+Use `pip3` to install Python packages:
 
 ~~~
-sudo pip install markdown
-sudo pip install pygments
-sudo pip install weasyprint
+sudo -H pip3 install markdown
+sudo -H pip3 install pygments
+sudo -H pip3 install weasyprint
+sudo -H pip3 install --upgrade six
 ~~~
 
 Install [Font Awesome](http://fontawesome.io/) TTF font and check correct installation:
 
 ~~~
-sudo apt-get install fonts-font-awesome
+sudo apt install fonts-font-awesome
 fc-list | grep awesome
 ~~~
 
@@ -54,13 +55,13 @@ Additionaly, to support admonition icons in HTML output format, you will need to
 Optionally, you can install an easy to use Markdown editor like [ReText](https://github.com/retext-project/retext), from Ubuntu repositories:
 
 ~~~
-sudo apt-get install retext
+sudo apt install retext
 ~~~
 
-Or you can install the latest version using `pip` (requires Python 3):
+Or you can install the latest version using `pip3`:
 
 ~~~
-sudo pip install retext
+sudo -H pip3 install retext
 ~~~
 
 

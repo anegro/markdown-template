@@ -2,7 +2,8 @@
 
 /* Table of contents heading style */
 p.toc {
-	font-family: 'Ubuntu Light', sans-serif !important;
+	/*font-family: 'Ubuntu Light', sans-serif !important;*/
+	font-family: 'Open Sans Light', sans-serif !important;
 	border-bottom: 1px solid navy;
 }
 
@@ -18,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h3, h4, h5, h6 {
-	-weasy-bookmark-level: none;
+	bookmark-level: none;
 }
 
 /* Encabezados sin numerar */

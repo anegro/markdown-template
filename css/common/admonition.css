@@ -145,14 +145,16 @@ div.frontpage, div.portada {
 	border-radius: 6px;
 }
 
+/* Subtítulo */
+div.frontpage p, div.portada p {
+}
+
+/* Título */
 div.frontpage p.admonition-title, div.portada p.admonition-title {
 	font-size: 24pt;
 	font-weight: bold;
 	font-family: sans-serif;
 		/*border: 1px solid blue;*/
-}
-
-div.frontpage p, div.portada p {
 }
 
 div.frontpage:before, div.portada:before { 

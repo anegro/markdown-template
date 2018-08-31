@@ -1,14 +1,14 @@
 @import '../common/bookmarks.css';
 
 h1 {
-	-weasy-bookmark-level: 1 !important;
-	-weasy-bookmark-label: content();
-	-weasy-string-set: section content();
+	bookmark-level: 1 !important;
+	bookmark-label: content();
+	string-set: section content();
 }
 
 h2 {
-	-weasy-bookmark-level: none !important;
-	-weasy-bookmark-label: content();
+	bookmark-level: none !important;
+	bookmark-label: content();
 }
 
 div.toc { font-size: 16pt }
@@ -18,5 +18,6 @@ div.toc li:before { content: none }
 div.toc ul ul { display: none }
 
 div.toc {
-	font-family: 'Ubuntu Light', sans-serif !important;
+	/*font-family: 'Ubuntu Light', sans-serif !important;*/
+	font-family: 'Open Sans Light', sans-serif !important;
 }

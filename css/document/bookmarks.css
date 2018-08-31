@@ -9,5 +9,6 @@ div.toc ul ul ul li:before { content: none }
 */
 
 div.toc {
-	font-family: 'Ubuntu Light', sans-serif !important;
+	/*font-family: 'Ubuntu Light', sans-serif !important;*/
+	font-family: 'Open Sans Light', sans-serif !important;
 }

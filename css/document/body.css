@@ -4,7 +4,7 @@ html, body {
 	font-size: 12pt;
 	/*font-family: 'Times New Roman', serif;*/
 	font-family: 'Georgia',serif !important;
-	-weasy-hyphens: none;
+	hyphens: none;
 	text-align: justify;
 	padding: 0 !important;
 	background: none !important;

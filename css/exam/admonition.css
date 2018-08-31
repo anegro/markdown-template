@@ -3,7 +3,8 @@
 
 /* Admonitions */
 div.admonition p, div.admonition ul, div.admonition ol, div.admonition table {
-	font-family: 'Ubuntu Light',sans-serif;
+	/*font-family: 'Ubuntu Light', sans-serif !important;*/
+	font-family: 'Open Sans Light', sans-serif !important;
 }
 
 

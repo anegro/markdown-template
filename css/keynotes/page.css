@@ -9,7 +9,8 @@
 
 	@left-top {
 		content: "Etiqueta";
-		font: .5cm 'Ubuntu Light';
+		/*font: .5cm 'Ubuntu Light';*/
+		font: .5cm 'Open Sans Light';
 		/*background: #005a9c;*/
 		/*background: #67A;*/
 		background: #ABC;

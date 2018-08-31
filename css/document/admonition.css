@@ -3,24 +3,25 @@
 
 /* Admonitions */
 div.admonition p, div.admonition ul, div.admonition ol, div.admonition table {
-	font-family: 'Ubuntu Light',sans-serif;
+	/*font-family: 'Ubuntu Light', sans-serif*/
+	font-family: 'Open Sans Light', sans-serif;
 }
 
 
 /* Front Page */
 div.frontpage, div.portada {
-	font-family: 'Georgia',serif !important;
 	margin: 2cm 0.5cm;
 	padding: 3em 1em;
 	page-break-after: always;
 }
 
-div.frontpage p.admonition-title, div.portada p.admonition-title {
-	font-family: 'Ubuntu',sans-serif !important;
-	font-weight: bold;
-}
-
+/* Subtítulo */
 div.frontpage p, div.portada p {
-	/*font-family: 'Georgia',serif !important;*/
+	/*font-family: 'Georgia',serif;*/
+	font-family: 'Open Sans Light', sans-serif;
 }
 
+/* Título */
+div.frontpage p.admonition-title, div.portada p.admonition-title {
+	font-family: 'Ubuntu',sans-serif;
+}

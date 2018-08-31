@@ -98,7 +98,8 @@
 
 	@right-top {
 		content: "Título";
-		font: .5cm/1.5 'Ubuntu Light';
+		/*font: .5cm/1.5 'Ubuntu Light';*/
+		font: .5cm/1.5 'Open Sans Light';
 		/*background: #005a9c;*/
 		/*background: #67A;*/
 		background: #ABC;
