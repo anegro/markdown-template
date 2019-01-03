@@ -29,7 +29,7 @@ def	main(argv):
 		templateText = templateFile.read()
 
 		# Convert markdown source file to HTML
-		htmlContents = markdown.markdown(sourceText, extensions)
+		htmlContents = markdown.markdown(sourceText, extensions=extensions)
 
 		# Get rid of file extension
 		title = getFileName(sourceFileName)
