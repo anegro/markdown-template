@@ -17,3 +17,34 @@ div.toc ul ul { padding-left: 2em; text-indent: -2em; }
 div.toc ul ul > li { margin: 0; }
 div.toc ul ul ul { display: none }
 
+
+/* Números de página en las entradas de la tabla de contenidos */
+
+/* Método 1 
+div.toc ul li a::after {
+    content: " . . . . . (p. " target-counter(attr(href), page) ")";
+}
+/**/
+
+/* Método 2 
+div.toc ul li a::after {
+    content: target-counter(attr(href), page);
+    float: right;
+}
+div.toc ul li {
+    border-top: 1px dotted #999;
+}
+/**/
+
+/* Método 3 */
+div.toc ul li a::after {
+    content: target-counter(attr(href), page);
+    position: relative;
+    top: -18pt;
+    margin-bottom: -18pt;
+    width: 100%;
+    display: block;
+    text-align: right;
+    border-bottom: 1px dotted #999;
+}
+/**/

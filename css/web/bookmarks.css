@@ -1,1 +1,14 @@
 @import '../common/bookmarks.css';
+
+/* Quitar posibles números de página */
+div.toc ul li a::after {
+    content: "";
+    position: auto;
+    top: auto;
+    margin-bottom: auto;
+    width: auto;
+    display: auto;
+    text-align: auto;
+    border-bottom: none;
+}
+
