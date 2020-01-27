@@ -15,7 +15,10 @@ div.toc li { display: block; counter-increment: item; text-align: left;}
 div.toc li:before { content: counters(item, ".") " " }
 div.toc ul ul { padding-left: 2em; text-indent: -2em; }
 div.toc ul ul > li { margin: 0; }
-div.toc ul ul ul { display: none }
+/*div.toc ul ul ul li { display: none; }/**/
+/**/
+div.toc ul ul ul li { display: block; height: 0; overflow: hidden; }
+/**/
 
 
 /* Números de página en las entradas de la tabla de contenidos */
@@ -45,6 +48,9 @@ div.toc ul li a::after {
     width: 100%;
     display: block;
     text-align: right;
+    border-bottom: 2px dotted #999;
+}
+div.toc ul ul li a::after {
     border-bottom: 1px dotted #999;
 }
 /**/
