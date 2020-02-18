@@ -22,7 +22,8 @@ h2 {
 div.toc ul { list-style-type: square; padding-left: 1em; text-indent: 0; }
 div.toc li { display: list-item; margin: 0 !important;}
 div.toc li:before { content: none }
-div.toc ul ul { display: none }
+/*div.toc ul ul { display: none }*/
+div.toc ul ul li { display: block; height: 0; overflow: hidden; }
 
 div.toc {
 	/*font-family: 'Ubuntu Light', sans-serif !important;*/
