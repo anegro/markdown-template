@@ -1,4 +1,4 @@
-#! /usr/bin/python
+#! /usr/bin/python3
 
 import sys
 import re
@@ -12,7 +12,7 @@ def	main(argv):
 
 	else:
 		# Markdown Extensions
-		extensions=['toc', 'tables', 'codehilite', 'fenced_code', 'admonition', 'attr_list', 'abbr', 'footnotes']
+		extensions=['toc', 'tables', 'codehilite', 'fenced_code', 'admonition', 'attr_list', 'abbr', 'footnotes', 'plantuml_markdown']
 
 		# Get arguments
 		sourceFileName = argv[1]
@@ -70,6 +70,6 @@ def printUsage(program):
 
 
 if __name__ == '__main__':
-	reload(sys)  
-	sys.setdefaultencoding('utf8')
+	#reload(sys)  
+	#sys.setdefaultencoding('utf8')
 	main(sys.argv)

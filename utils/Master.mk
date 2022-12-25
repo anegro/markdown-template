@@ -28,7 +28,8 @@ odt: $(ODTS)
 
 
 %.html: %.md
-	./utils/md2html.py $< template.html $(HTMLDIR)/$@
+	#./utils/md2html.py $< template.html $(HTMLDIR)/$@
+	./utils/md2html.sh $< $(HTMLDIR)/$@
 
 
 %.pdf: %.md %.css $(CSSDIR)/*/*.css
